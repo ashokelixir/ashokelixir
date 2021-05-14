@@ -1,0 +1,10 @@
+org: devashok
+app: orrvee
+name: orrvee-platform
+component: website
+
+inputs:
+  src:
+    src: ./src
+    hook: ng build --prod
+    dist: ./dist/orrvee
